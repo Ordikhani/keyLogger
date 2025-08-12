@@ -4,13 +4,6 @@ Description
 This project is a simple Windows keylogger implemented in C++ using the WinAPI.
 It captures keyboard input via a low-level keyboard hook (WH_KEYBOARD_LL) and logs both special keys and printable characters into a text file (key_file.txt).
 
-WindowsKeylogger/
-│
-├── main.cpp        # Main source code (keylogger logic)
-├── key_file.txt    # Output log file (created at runtime)
-└── README.md       # Documentation
-
-
 How to Build & Run
 Using MinGW (Windows)
 1- Install MinGW and ensure g++ is in your PATH.
